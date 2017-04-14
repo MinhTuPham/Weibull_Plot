@@ -26,7 +26,6 @@ shinyServer(function(input, output) {
                 polygon(density(sim), col="red", border="blue")
         })
         
-        output$plotgraph = renderPlot({pt()})
         output$plotgraph1 = renderPlot({pt1()})
         output$plotgraph2 = renderPlot({pt2()})       
 })
